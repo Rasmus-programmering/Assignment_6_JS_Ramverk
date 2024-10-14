@@ -9,7 +9,7 @@ const AddMovieForm = ({ onAddMovie }) => {
         if (title && rating) {
             onAddMovie(title, rating);
             setTitle('');
-            setRating(1); // Återställ till standardvärdet
+            setRating(1); // Återställer till standardvärdet
         }
     };
 

@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Movie = ({ movie, onDelete }) => {
-    // Kontroll för att säkerställa att movie, title och rating finns
     if (!movie) {
         return <li>Filminformation saknas</li>;
     }

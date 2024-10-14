@@ -1,7 +1,7 @@
-import React, { useState } from 'react'; // Se till att useState importeras här
-import AddMovieForm from './components/AddMovieForm.js'; // Kontrollera att filnamnet är korrekt
-import Movies from './components/Movies.js'; // Kontrollera att filnamnet är korrekt
-import SortButtons from './components/SortButtons.js'; // Kontrollera att filnamnet är korrekt
+import React, { useState } from 'react'; 
+import AddMovieForm from './components/AddMovieForm.js'; 
+import Movies from './components/Movies.js'; 
+import SortButtons from './components/SortButtons.js'; 
 import './index.css';
 
 const App = () => {

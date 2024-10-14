@@ -16,17 +16,18 @@ Detta är en React-applikation som låter användare lägga till, sortera och ta
 För att installera och köra projektet, följ dessa steg:
 
 1. Klona detta repository:
-   ```bash
+   ```
    git clone https://github.com/Rasmus-programmering/Assignment_6_JS_Ramverk
+
 Navigera till projektmappen:
-bash
 cd min-filmlista
+
 Installera beroenden:
-bash
 npm install
+
 Starta applikationen:
-bash
 npm start
+
 Öppna webbläsaren och gå till http://localhost:3000 för att se applikationen.
 
 Användning
@@ -50,6 +51,7 @@ Förbättringar
 Lägg till validering i formuläret för att säkerställa att användaren skriver in giltiga data.
 Implementera en sökfunktion för att enkelt hitta filmer.
 Spara filmer i lokal lagring så att de kvarstår efter att sidan har laddats om.
+
 Licens
 Detta projekt är licensierat under MIT-licensen. Se LICENSE för detaljer.
 
