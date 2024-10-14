@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Min Filmlista
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Detta är en React-applikation som låter användare lägga till, sortera och ta bort filmer från en lista. Applikationen använder Bootstrap för styling.
 
-## Available Scripts
+## Innehåll
 
-In the project directory, you can run:
+- [Installation](#installation)
+- [Användning](#användning)
+- [Funktioner](#funktioner)
+- [Komponenter](#komponenter)
+- [Förbättringar](#förbättringar)
+- [Licens](#licens)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+För att installera och köra projektet, följ dessa steg:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Klona detta repository:
+   ```bash
+   git clone <repository-url>
+Navigera till projektmappen:
+bash
+cd min-filmlista
+Installera beroenden:
+bash
+npm install
+Starta applikationen:
+bash
+npm start
+Öppna webbläsaren och gå till http://localhost:3000 för att se applikationen.
 
-### `npm test`
+Användning
+Använd formuläret för att lägga till en film med en titel och betyg.
+Filmerna kan sorteras alfabetiskt eller efter betyg.
+Du kan ta bort filmer från listan genom att klicka på den röda knappen bredvid filmen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Funktioner
+Lägga till filmer
+Ta bort filmer
+Sortera filmer alfabetiskt eller efter betyg
 
-### `npm run build`
+Komponenter
+App.js: Huvudkomponenten som hanterar tillstånd och rendering av andra komponenter.
+AddMovieForm.js: Formulär för att lägga till nya filmer.
+Movies.js: Visar listan över filmer.
+Movie.js: Komponent som representerar en enskild film.
+SortButtons.js: Komponent för att sortera filmer.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Förbättringar
+Lägg till validering i formuläret för att säkerställa att användaren skriver in giltiga data.
+Implementera en sökfunktion för att enkelt hitta filmer.
+Spara filmer i lokal lagring så att de kvarstår efter att sidan har laddats om.
+Licens
+Detta projekt är licensierat under MIT-licensen. Se LICENSE för detaljer.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Anpassningar
+- Ersätt `<repository-url>` med URL:en till ditt Git-repository.
+- Lägg till eller ta bort avsnitt beroende på vad du vill inkludera.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
