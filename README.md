@@ -17,7 +17,7 @@ För att installera och köra projektet, följ dessa steg:
 
 1. Klona detta repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rasmus-programmering/Assignment_6_JS_Ramverk
 Navigera till projektmappen:
 bash
 cd min-filmlista
@@ -53,7 +53,4 @@ Spara filmer i lokal lagring så att de kvarstår efter att sidan har laddats om
 Licens
 Detta projekt är licensierat under MIT-licensen. Se LICENSE för detaljer.
 
-### Anpassningar
-- Ersätt `<repository-url>` med URL:en till ditt Git-repository.
-- Lägg till eller ta bort avsnitt beroende på vad du vill inkludera.
 
